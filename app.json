@@ -1,0 +1,29 @@
+{
+  "name": "API.AI Facebook integration",
+  "description": "Api.ai Facebook integration allows you to create Facebook bots with natural language understanding based on Api.ai technology.",
+  "repository": "https://github.com/dlhangar/dlirop",
+  "logo": "",
+  "keywords": ["api.ai", "facebook", "natural language"],
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for Api.ai",
+      "value": "https://bots.api.ai/facebook/0dc5864b-76cf-45ac-87c1-1a0cf3200de3/webhook"
+    },
+    "FB_VERIFY_TOKEN": {
+      "description": "Verification code",
+      "value": "hangar"
+    },
+    "FB_PAGE_ACCESS_TOKEN": {
+      "description": "Page Access Token",
+      "value": "EAAXNbClSOWsBACwoRm3NW0HG4vc9uRDZCpmXUE1xlPkdc1ZAKJtrasNE5q7dpZA4cYJBEUCVMZAOctRIWZCyH1MFKbSX5CV9dZAH23HprpPHrbzRi06xoG5a28BbhAZBoLKKZAdDQ1zQGXn2muscC5I4j7hWDPGyqsecKo3IG3HYAOgdZAk3WFz2b"
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "",
+      "required": false
+    }
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
+}
